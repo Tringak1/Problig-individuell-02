@@ -26,11 +26,17 @@ fun nordic-flag(background :: String, cross_outer :: String, cross_inner :: Stri
   
 end
 
+# Norway
 nordic-flag("red", "white", "blue")
+# Denmark
 nordic-flag("red", "red", "white")
+# Finland
 nordic-flag("white", "blue", "blue")
+# Iceland
 nordic-flag("blue", "white", "red")
+# Sweden
 nordic-flag("blue", "yellow", "yellow")
+# Pharoe Islands
 nordic-flag("white", "blue", "red")
 
 
