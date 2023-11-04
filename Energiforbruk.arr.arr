@@ -1,4 +1,5 @@
 use context essentials2021
+
 include gdrive-sheets
 include data-source
 
@@ -25,7 +26,8 @@ bil-energi(30, 18.1)
 
 fun energi-to-number(str :: String) -> Number:
 # skriv koden her (tips: bruk cases og string-to-number funksjonen)
-  cases (Option) string-to-number(str):
+  energiforbruk = string-to-number(str)
+  cases (Option) energiforbruk:
     | none => bil-energi(30, 18.1)
     | some(num) => num
   end
